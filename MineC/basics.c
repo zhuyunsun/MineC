@@ -7,15 +7,9 @@
 
 #include "basics.h"
 
-int maxCout(int a,int b){
-    if (a < b) {
-        return b;
-    }
-    return a;
-}
-int allFiles(void){
+void b1(void){
     
     
     
-    return 1;
+    
 }
