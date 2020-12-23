@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FE9BEFCF259194710059CD9A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FE9BEFCE259194710059CD9A /* main.c */; };
 		FE9BEFD8259194BD0059CD9A /* basics.c in Sources */ = {isa = PBXBuildFile; fileRef = FE9BEFD7259194BD0059CD9A /* basics.c */; };
+		FEF3841F2592D87B00863416 /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = FEF3841E2592D87B00863416 /* pointer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		FE9BEFCE259194710059CD9A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FE9BEFD6259194BD0059CD9A /* basics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = basics.h; sourceTree = "<group>"; };
 		FE9BEFD7259194BD0059CD9A /* basics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = basics.c; sourceTree = "<group>"; };
+		FEF3841D2592D87B00863416 /* pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointer.h; sourceTree = "<group>"; };
+		FEF3841E2592D87B00863416 /* pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				FE9BEFCE259194710059CD9A /* main.c */,
 				FE9BEFD6259194BD0059CD9A /* basics.h */,
 				FE9BEFD7259194BD0059CD9A /* basics.c */,
+				FEF3841D2592D87B00863416 /* pointer.h */,
+				FEF3841E2592D87B00863416 /* pointer.c */,
 			);
 			path = MineC;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				FE9BEFD8259194BD0059CD9A /* basics.c in Sources */,
 				FE9BEFCF259194710059CD9A /* main.c in Sources */,
+				FEF3841F2592D87B00863416 /* pointer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
