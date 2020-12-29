@@ -16,8 +16,8 @@ int main(int argc, const char * argv[]) {
      C语言的不同标准就是其版本,目前是C18,之前的有C17,C11...C99;
      
      1,每一个C程序,都有一个main函数,代码都从main函数开始执行;
-     2,通过#include预处理命名 来引入头文件;
-     3,return 0;表示退出线程;
+     2,通过#include预处理命名 来引入头文件;如果没有导入对应的头文件,使用其函数时,会报错;
+     3,return 0;表示退出程序;
      */
     
     
@@ -67,9 +67,6 @@ int main(int argc, const char * argv[]) {
      一个C语言程序,可以是3行,也可以是数百万行,它可以写在一个或多个扩展名为".c"的文本文件中,例如,hello.c,你可以使用"vi","vim"或任何其他的文本编辑器来编写你的C语言程序.
      Mac电脑上使用Xcode开发工具可以创建Command Line Tool工程来配置C语言的开发环境.
      */
-    
-    
-    
     
     b1();
     
