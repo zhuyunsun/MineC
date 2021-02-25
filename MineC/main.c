@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
      
      1,每一个C程序,都有一个main函数,代码都从main函数开始执行;
      2,通过#include预处理命名 来引入头文件;如果没有导入对应的头文件,使用其函数时,会报错;
-     3,return 0;表示退出程序;
+     3,return 0,表示退出程序;
      */
     
     
